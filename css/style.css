@@ -116,3 +116,96 @@ header.navbar-container .nav-list li:hover a {
   width: 200px;
   height: 200px;
 }
+
+.message-section {
+  margin-inline: 4rem;
+  padding-block: 2rem;
+}
+
+.message-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.form-container {
+  flex: 0 0 45%;
+}
+
+#data-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#data-form label,
+#data-form input,
+#data-form textarea {
+  flex: 0 0 50%;
+  margin-bottom: 10px;
+  box-sizing: bor;
+}
+
+.data-form-receiver {
+  flex: 0 0 40%;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.gender {
+  margin-block: 1rem;
+}
+
+.gender-input input {
+  margin-block: 0.8rem;
+}
+
+.gender-input label {
+  margin-right: 1rem;
+}
+
+#data-form input[type="text"],
+#data-form input[type="date"],
+#data-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#data-form input[type="submit"] {
+  background-color: #de3078;
+  color: white;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 999px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+#data-form input[type="submit"]:hover {
+  background-color: #c4105b;
+  font-weight: bold;
+}
+
+aside {
+  align-self: baseline;
+  height: 350px;
+}
+
+.data-form-receiver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+aside #placeholder {
+  text-align: center;
+  opacity: 70%;
+}

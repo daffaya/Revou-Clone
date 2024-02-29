@@ -51,6 +51,66 @@
             </div>
           </div>
         </div>
+
+        <div class="message-section" id="message-us">
+          <h1>Message Us</h1>
+          <div class="message-container">
+            <div class="form-container">
+              <form id="data-form">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nama"
+                  required
+                />
+
+                <label for="birthday">Tanggal Lahir:</label>
+                <input type="date" id="birthday" name="birthday" required />
+
+                <div class="gender">
+                  <legend>Jenis Kelamin:</legend>
+                  <div class="gender-input">
+                    <input
+                      type="radio"
+                      id="male"
+                      name="gender"
+                      value="Laki-laki"
+                      required
+                    />
+                    <label for="male">Laki-laki</label>
+                    <input
+                      type="radio"
+                      id="female"
+                      name="gender"
+                      value="Perempuan"
+                      required
+                    />
+                    <label for="female">Perempuan</label>
+                  </div>
+                </div>
+
+                <label for="message">Pesan:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Pesan"
+                  required
+                ></textarea>
+
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+
+            <aside class="data-form-receiver" id="data-form-receiver">
+              <div id="placeholder">
+                Submit form to see the magic inside this box and inside the
+                banner
+              </div>
+            </aside>
+          </div>
+        </div>
       </div>
     </main>
     <script src="/js/script.js"></script>
