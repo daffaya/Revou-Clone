@@ -95,3 +95,24 @@ header.navbar-container .nav-list li:hover a {
   background-color: #c4105b;
   font-weight: bold;
 }
+
+.headquarter-section {
+  margin-inline: 4rem;
+  padding-block: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.hq-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hq-item h3 {
+  text-align: center;
+}
+.hq-image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
