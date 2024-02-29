@@ -314,3 +314,84 @@ aside #placeholder {
   max-width: 128px;
   display: block;
 }
+
+@media screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+  }
+
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    justify-content: center;
+  }
+
+  main .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .headquarter-section h1 {
+    text-align: center;
+  }
+
+  .hq-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hq-item {
+    margin-bottom: 1rem;
+  }
+
+  .message-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container,
+  .data-form-receiver {
+    width: 100%;
+  }
+
+  .data-form-receiver {
+    order: 1;
+    margin-top: 1rem;
+    min-height: 200px;
+  }
+
+  .culture-content {
+    padding-inline: 2rem;
+    background-color: #ffde3d;
+  }
+
+  .paragraph-wrapper {
+    width: 100%;
+  }
+
+  .kindness-section {
+    margin-block: 2rem;
+  }
+
+  .circled-number {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .tabs-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .square-icon {
+    margin: 1rem 0;
+  }
+
+  .paragraph-menu {
+    padding-inline: 1rem;
+  }
+}
