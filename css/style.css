@@ -277,3 +277,40 @@ aside #placeholder {
   color: #4d4d4d;
   line-height: 1.5625;
 }
+
+.heroes-section {
+  display: flex;
+  background-image: url("../img/banner-portfolio2.png");
+  background-position: center;
+  justify-content: center;
+  margin-inline: 10rem;
+}
+
+.heroes-section h1 {
+  text-align: center;
+}
+
+.heroes-section {
+  position: relative;
+  text-align: center;
+  margin-inline: 10rem;
+}
+.banner-slider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  flex: 0 0 auto;
+  margin-inline: 2rem;
+}
+
+.slide img {
+  max-height: 96px;
+  max-width: 128px;
+  display: block;
+}
