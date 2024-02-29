@@ -58,3 +58,40 @@ header.navbar-container .nav-list li:hover a {
   font-weight: 550;
   color: #333333;
 }
+
+.banner-section {
+  background-color: #ffde3d;
+  background-image: url("../img/banner.png");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  padding: 100px 0;
+
+  border-bottom: 1px solid #333333;
+}
+
+.banner-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.banner-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.banner-section .btn {
+  display: inline-block;
+  background-color: #de3078;
+  color: white;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: background-color 0.3s ease;
+}
+
+.banner-section .btn:hover {
+  background-color: #c4105b;
+  font-weight: bold;
+}
